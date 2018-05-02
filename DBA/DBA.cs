@@ -8,7 +8,6 @@ namespace Voting
 {
     class DBA
     {
-        //private static string candidateDir = @"C:\Users\..\documents\visual studio 2015\Projects\Voting\Voting";
         private static string dir = Directory.GetCurrentDirectory();
         private static string candidatePath = dir + @"\Candidates.txt";
         private static SqlConnection con = new SqlConnection(Properties.Settings.Default.BallotsConnectionString1);
